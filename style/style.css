@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CONTENITORE GENERALE:*/
+.container {
+    width: 1000px;
+    height: 1000px;
+    margin: 50px auto;
+    
+}
+
+/*HEADER:*/
+.box-pink {
+    background-color: rgb(226, 62, 171);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+/*MAIN:*/
+.box-yellow {
+    background-color: rgb(197, 183, 51);
+    width: 100%;
+    height: 350px;
+    margin-bottom: 25px;
+}
+/*Rettangoli azzurri:*/
+.box-blue-1 {
+    background-color:rgb(101, 173, 231) ;
+    width: 100%;
+    height: 80px;
+    border-bottom: 10px solid rgb(0, 68, 255);
+}
+
+.box-blue-2 {
+    background-color:  rgb(101, 173, 231);
+    width: 25%;
+    height: 300px;
+    border-bottom: 10px solid rgb(0, 68, 255);
+    border-right: 10px solid rgb(0, 68, 255);
+    float: left;
+}
+
+.box-blue-3 {
+    background-color: rgb(101, 173, 231);
+    width: 50%;
+    height: 300px;
+    border-bottom: 10px solid rgb(0, 68, 255);
+    border-right: 10px solid rgb(0, 68, 255);
+    float: left;
+}
+
+.box-blue-4 {
+    background-color: rgb(101, 173, 231);
+    width: 25%;
+    height: 300px;
+    border-bottom: 10px solid rgb(0, 68, 255);
+    float: right;
+}
+
+/*FOOTER:*/
+.box-violet {
+    background-color: rgb(124, 23, 124);
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    float: right;
+}
+
+
+
