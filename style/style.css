@@ -33,18 +33,48 @@ a {
 }
 
 /*MAIN:*/
-.box-yellow {
-    background-color: rgb(197, 183, 51);
-    width: 100%;
-    height: 350px;
-    margin-bottom: 25px;
+.container-clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
+
+.banner {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.yoga {
+    width: 1000px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: absolute;
+    filter: brightness(0.8);
+}
+
+.description {
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.sottotesto {
+    font-size: 15px;
+}
+
+
 /*Rettangoli azzurri:*/
-.box-blue-1 {
+/* .box-blue-1 {
     background-color:rgb(101, 173, 231) ;
     width: 100%;
     height: 80px;
     border-bottom: 10px solid rgb(0, 68, 255);
+    float: left;
 }
 
 .box-blue-2 {
@@ -74,13 +104,13 @@ a {
 }
 
 /*FOOTER:*/
-.box-violet {
+/* .box-violet {
     background-color: rgb(124, 23, 124);
     width: 100%;
     height: 60px;
     margin-top: 10px;
     float: right;
-}
+} */ 
 
 
 
