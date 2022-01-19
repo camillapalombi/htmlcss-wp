@@ -32,7 +32,7 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
-/*MAIN:*/
+/*MAIN:PRIMA PARTE:*/
 .container-clearfix::after {
     content: '';
     display: table;
@@ -42,6 +42,7 @@ a {
 .banner {
     margin-bottom: 25px;
     position: relative;
+    float: left;
 }
 
 .yoga {
@@ -49,8 +50,8 @@ a {
     height: 400px;
     object-fit: cover;
     border-radius: 15px;
-    position: absolute;
     filter: brightness(0.8);
+    float: left;
 }
 
 .description {
@@ -61,30 +62,49 @@ a {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 30px;
+    float: left;
 }
 
 .sottotesto {
     font-size: 15px;
+    float: left;
 }
 
-
-/*Rettangoli azzurri:*/
-/* .box-blue-1 {
-    background-color:rgb(101, 173, 231) ;
-    width: 100%;
-    height: 80px;
-    border-bottom: 10px solid rgb(0, 68, 255);
+/*MAIN:SECONDA PARTE:*/
+.leadership {
+    width: 1000px;
     float: left;
+}
+
+h1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sottotesto-2 {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(151, 150, 150);
+    font-size: 15px;
+    margin-bottom: 30px;
 }
 
 .box-blue-2 {
-    background-color:  rgb(101, 173, 231);
     width: 25%;
-    height: 300px;
-    border-bottom: 10px solid rgb(0, 68, 255);
-    border-right: 10px solid rgb(0, 68, 255);
     float: left;
+    font-family:'Poppins', sans-serif;
 }
+.investimenti {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: brightness(0.8);
+}
+.description-2 {
+    color: rgb(139, 136, 136);
+}
+
 
 .box-blue-3 {
     background-color: rgb(101, 173, 231);
@@ -104,13 +124,7 @@ a {
 }
 
 /*FOOTER:*/
-/* .box-violet {
-    background-color: rgb(124, 23, 124);
-    width: 100%;
-    height: 60px;
-    margin-top: 10px;
-    float: right;
-} */ 
+
 
 
 
